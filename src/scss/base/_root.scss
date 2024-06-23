@@ -1,0 +1,47 @@
+@use 'variables' as v;
+
+:root {
+    // Variables de modo claro
+    --body-color: #000000;
+    --body-bg: #ffffff;
+    --body-emphasis-color: #333333;
+    --body-secondary-color: #666666;
+    --body-secondary-bg: #f0f0f0;
+    --body-tertiary-color: #999999;
+    --body-tertiary-bg: #e0e0e0;
+    --heading-color: #222222;
+    --link-color: #0066cc;
+    --link-hover-color: #004499;
+    --code-color: #d6336c;
+    --highlight-color: #ffc107;
+    --highlight-bg: #212529;
+    --border-color: #dddddd;
+    --border-color-translucent: rgba(0, 0, 0, 0.1);
+    --form-valid-color: #28a745;
+    --form-valid-border-color: #28a745;
+    --form-invalid-color: #dc3545;
+    --form-invalid-border-color: #dc3545;
+  }
+  
+  [data-theme='dark'] {
+    // Variables de modo oscuro
+    --body-color: #{$body-color-dark};
+    --body-bg: #{$body-bg-dark};
+    --body-emphasis-color: #{$body-emphasis-color-dark};
+    --body-secondary-color: #{$body-secondary-color-dark};
+    --body-secondary-bg: #{$body-secondary-bg-dark};
+    --body-tertiary-color: #{$body-tertiary-color-dark};
+    --body-tertiary-bg: #{$body-tertiary-bg-dark};
+    --heading-color: #{$headings-color-dark};
+    --link-color: #{$link-color-dark};
+    --link-hover-color: #{$link-hover-color-dark};
+    --code-color: #{$code-color-dark};
+    --highlight-color: #{$mark-color-dark};
+    --highlight-bg: #{$mark-bg-dark};
+    --border-color: #{$border-color-dark};
+    --border-color-translucent: #{$border-color-translucent-dark};
+    --form-valid-color: #{$form-valid-color-dark};
+    --form-valid-border-color: #{$form-valid-border-color-dark};
+    --form-invalid-color: #{$form-invalid-color-dark};
+    --form-invalid-border-color: #{$form-invalid-border-color-dark};
+  }

@@ -1,0 +1,50 @@
+// styles.scss
+@use 'variables' as v;
+@use 'root';
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: v.$fuente_principal;
+  font-size: 1.8rem;
+  color: var(--body-color);
+  background-color: var(--body-bg);
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+
+  &:hover {
+    color: var(--link-hover-color);
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.swal2-popup {
+  font-size: 2rem !important;
+}
+
+.header {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+
+.barra {
+  background-color: var(--body-secondary-bg);
+  color: var(--body-secondary-color);
+}
+
+/* Aplica más estilos utilizando las variables definidas */
